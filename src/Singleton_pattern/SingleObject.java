@@ -1,0 +1,22 @@
+package Singleton_pattern;
+
+public class SingleObject {
+
+    //create an object of singleObject
+    private static  SingleObject instance = new SingleObject();
+
+    //make the constructor private so that this class cannot be
+    //instantiated
+
+    private SingleObject(){
+
+    }
+    public static SingleObject getInstance(){
+        return instance;
+    }
+
+    public void showMessage(){
+        System.out.println("hallo world");
+
+    }
+}
