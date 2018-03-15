@@ -1,6 +1,7 @@
-package Designmøster_Opgave;
+package Designmøster_Opgave.Factory;
 
 public class InfantryUnit {
+    private String name;
 private int range;
 private int armor;
 private int hits;
@@ -22,12 +23,15 @@ public InfantryUnit() {}
         int reduction = (int) (Math.random() * armor);
         if (damage > reduction) {
             hits = hits - (damage-reduction);
+
         }
     }
 
     public void attack (InfantryUnit unit){
         int attackDamage = (int) (Math.random() * damage) + 1;
         unit.takeDamage(attackDamage);
+        System.out.println(unit.name + " dealt " + attackDamage +
+                " damage (hits). Remaining: " + unit.hits);
     }
 
 }

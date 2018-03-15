@@ -1,4 +1,4 @@
-package Designmøster_Opgave;
+package Designmøster_Opgave.Factory;
 
 public class HumanInfantryFactory {
 }
