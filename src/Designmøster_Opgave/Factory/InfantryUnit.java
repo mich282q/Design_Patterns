@@ -31,8 +31,8 @@ public InfantryUnit() {}
     public void attack (InfantryUnit unit){
         int attackDamage = (int) (Math.random() * damage) + 1;
         unit.takeDamage(attackDamage);
-        System.out.println(unit.name + " dealt " + attackDamage +
-                " damage (hits). Remaining: " + unit.hits);
+        System.out.println(unit.name + " Tog " + attackDamage +
+                " damage (hits).liv Tilbage: " + unit.hits);
     }
     @Override
     public String toString() {
