@@ -8,23 +8,23 @@ public class HumanInfantryFactory extends InfantryFactory{
 
         InfantryUnit character = null;
         switch (techLevel) {
-                case 10:
+                case 100:
                     character = new RockHauler(4, 6, 25, 10); //range, armor, hits, damage
                     //character.setRace("Human");
                     break;
-                case 11:
+                case 400:
                     character = new SpearThrower(4, 6, 25, 11);
                     //character.setRace("Human");
                     break;
-                case 12:
+                case 500:
                     character = new Musketeer(4, 6, 25, 12);
                     //character.setRace("Human");
                     break;
-                case 13:
+                case 600:
                     character = new CrossbowMan(4, 6, 25, 13);
                     //character.setRace("Human");
                     break;
-                case 14:
+                case 800:
                     character = new Archer(4, 6, 25, 14);
                     //character.setRace("Human");
                     break;

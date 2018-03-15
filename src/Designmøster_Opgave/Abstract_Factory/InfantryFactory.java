@@ -1,4 +1,10 @@
 package Designmøster_Opgave.Abstract_Factory;
 
-public class InfantryFactory {
+import Designmøster_Opgave.Factory.InfantryUnit;
+
+public abstract class InfantryFactory {
+    public InfantryUnit createUnit(int techLevel) {
+        // A better imlementation could be done here, but we return null as for now
+        return null;
+    }
 }
