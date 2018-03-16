@@ -1,4 +1,4 @@
-package Designmøster_Opgave.Factory;
+package Designmøster_Opgave.FactoryAndAbstractFactory;
 
 public class InfantryUnit {
     private String name;
@@ -6,9 +6,9 @@ private int range;
 private int armor;
 private int hits;
 private int damage;
+private String race;
 
 public InfantryUnit() {}
-
 
 
 
@@ -17,6 +17,7 @@ public InfantryUnit() {}
         this.armor = armor;
         this.hits = hits;
         this.damage = damage;
+        this.race = race;
     }
 
     public void takeDamage ( int damage){
@@ -50,6 +51,36 @@ public InfantryUnit() {}
         }
         return alive;
     }
+    public int getDamage() {
+        return damage;
+    }
+    public int getRange() {
+        return range;
+    }
+
+    public void setRange(int range) {
+        this.range = range;
+    }
+
+    public int getArmor() {
+        return armor;
+    }
+
+    public void setArmor(int armor) {
+        this.armor = armor;
+    }
+
+    public int getHits() {
+        return hits;
+    }
+
+    public void setHits(int hits) {
+        this.hits = hits;
+    }
+
+    public void setDamage(int damage) {
+        this.damage = damage;
+    }
 
     public String getName() {
         return name;
@@ -57,6 +88,14 @@ public InfantryUnit() {}
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getRace() {
+        return race;
+    }
+
+    public void setRace(String race) {
+        this.race = race;
     }
 
 }

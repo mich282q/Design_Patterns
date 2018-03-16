@@ -1,4 +1,4 @@
-package Designmøster_Opgave.Factory;
+package Designmøster_Opgave.FactoryAndAbstractFactory;
 
 public class Archer extends InfantryUnit {
     public Archer() {}

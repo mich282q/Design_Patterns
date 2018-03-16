@@ -1,4 +1,4 @@
-package Designmøster_Opgave.Factory;
+package Designmøster_Opgave.FactoryAndAbstractFactory;
 
 public class SpearThrower extends InfantryUnit {
     public SpearThrower(){}

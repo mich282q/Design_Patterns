@@ -1,6 +1,6 @@
-package Designmøster_Opgave.Abstract_Factory;
+package Designmøster_Opgave.FactoryAndAbstractFactory;
 
-import Designmøster_Opgave.Factory.InfantryUnit;
+import Designmøster_Opgave.FactoryAndAbstractFactory.InfantryUnit;
 
 public abstract class InfantryFactory {
     public InfantryUnit createUnit(int techLevel) {
