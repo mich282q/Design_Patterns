@@ -1,0 +1,15 @@
+Danish
+
+I besøgsmønster bruger vi en besøgerklasse, der ændrer eksekveringsalgoritmen til en elementklasse.
+På denne måde kan eksekveringsalgoritmen for elementet variere som og hvornår besøgende varierer.
+Dette mønster kommer under adfærdsmønster kategori.
+ I henhold til mønsteret skal elementobjektet acceptere det besøgendes objekt,
+ så det besøgendeobjekt håndterer operationen på elementobjektet.
+
+English
+
+In Visitor pattern, we use a visitor class which changes the executing algorithm of an element class.
+By this way, execution algorithm of element can vary as and when visitor varies.
+ This pattern comes under behavior pattern category.
+  As per the pattern, element object has to accept the visitor object so that visitor object
+  handles the operation on the element object.

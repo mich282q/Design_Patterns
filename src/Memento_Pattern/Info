@@ -1,0 +1,11 @@
+Danish
+
+vision styrelse så man altid kan rule tilbage.
+
+Memento mønster bruges til at genoprette tilstanden af en genstand til en tidligere tilstand.
+Memento mønster falder under adfærdsmønster kategori.
+
+English
+
+Memento pattern is used to restore state of an object to a previous state.
+ Memento pattern falls under behavioral pattern category.

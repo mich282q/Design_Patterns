@@ -1,0 +1,13 @@
+Danish
+
+I skabelonmønsteret viser en abstrakt klasse definerede måde (r) / skabelon (er) til at udføre sine metoder.
+Dens underklasser kan tilsidesætte metodeimplementeringen efter behov,
+ men påkaldelsen skal være på samme måde som defineret af en abstrakt klasse.
+ Dette mønster kommer under adfærdsmønster kategori.
+
+English
+
+In Template pattern, an abstract class exposes defined way(s)/template(s) to execute its methods.
+Its subclasses can override the method implementation as per need but the invocation is to be in the same way
+ as defined by an abstract class.
+ This pattern comes under behavior pattern category.

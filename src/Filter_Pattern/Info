@@ -1,0 +1,13 @@
+Danish
+
+Filtermønster eller Kriteriemønster er et mønster,
+ der gør det muligt for udviklere at filtrere et sæt objekter ved hjælp af forskellige kriterier
+ og kæde dem på en afkoblet måde gennem logiske operationer.
+
+ Denne type mønster kommer under strukturelle mønstre, da dette mønster kombinerer flere kriterier for at opnå enkelte kriterier.
+
+ English
+
+ Filter pattern or Criteria pattern is a design pattern that enables developers to filter a set of objects
+ using different criteria and chaining them in a decoupled way through logical operations.
+  This type of design pattern comes under structural pattern as this pattern combines multiple criteria to obtain single criteria.

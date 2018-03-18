@@ -1,0 +1,19 @@
+Danish
+
+I Null Object-mønster erstatter et null objekt kontrol af NULL-objekteksemplet.
+I stedet for at sætte, hvis du tjekker for en null-værdi, afspejler Null Object et do nothing-forhold.
+Et sådant Null-objekt kan også bruges til at angive standardadfærd, hvis data ikke er tilgængelig.
+
+I Null Object-mønster opretter vi en abstrakt klasse, der angiver forskellige handlinger, der skal udføres, konkrete klasser,
+ der udvider denne klasse og en null objektklasse, der giver intet implementering af denne klasse,
+ og vil blive brugt løgnigt hvor vi skal kontrollere nullværdi.
+
+ English
+
+ In Null Object pattern, a null object replaces check of NULL object instance.
+ Instead of putting if check for a null value, Null Object reflects a do nothing relationship.
+ Such Null object can also be used to provide default behaviour in case data is not available.
+
+ In Null Object pattern, we create an abstract class specifying various operations to be done,
+ concrete classes extending this class and a null object class providing do nothing implemention
+ of this class and will be used seemlessly where we need to check null value.

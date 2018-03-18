@@ -1,0 +1,13 @@
+Danish
+
+Facade mønster skjuler systemets kompleksitet og giver en grænseflade til klienten, hvormed klienten kan få adgang til systemet.
+ Denne type mønster kommer under strukturelle mønstre, da dette mønster tilføjer en grænseflade til eksisterende system for at skjule dets kompleksiteter.
+
+Dette mønster involverer en enkelt klasse, der giver forenklede metoder, som kræves af klienten, og delegerede opkald til metoder af eksisterende systemklasser.
+
+English
+
+Facade pattern hides the complexities of the system and provides an interface to the client using which the client can access the system.
+ This type of design pattern comes under structural pattern as this pattern adds an interface to existing system to hide its complexities.
+
+This pattern involves a single class which provides simplified methods required by client and delegates calls to methods of existing system classes.

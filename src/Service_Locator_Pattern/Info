@@ -1,0 +1,35 @@
+Danish
+
+Service locator design mønster bruges, når vi ønsker at finde forskellige tjenester ved hjælp af JNDI opslag.
+ I betragtning af høje omkostninger ved at kigge op JNDI til en tjeneste, bruger Service Locator mønster brug af caching teknik.
+ For første gang en tjeneste er påkrævet, ser Service Locator op i JNDI og caches serviceobjektet.
+ Yderligere opslag eller samme service via Service Locator udføres i sin cache, hvilket forbedrer programmets ydeevne i vid udstrækning.
+  Følgende er enhederne af denne type designmønster.
+
+Service - Faktisk Service, som behandler anmodningen. Henvisning til en sådan tjeneste skal ses på JNDI-serveren.
+
+Kontekst / Initial Context - JNDI Context bærer referencen til den tjeneste, der bruges til søgning formål.
+
+Service Locator - Service Locator er et enkelt kontaktpunkt for at få tjenester ved JNDI lookup caching tjenesterne.
+
+Cache - Cache til at gemme referencer for tjenester for at genbruge dem
+
+Klient - Klient er det objekt, der påberåber tjenesterne via ServiceLocator.
+
+English
+
+The service locator design pattern is used when we want to locate various services using JNDI lookup.
+Considering high cost of looking up JNDI for a service, Service Locator pattern makes use of caching technique.
+For the first time a service is required, Service Locator looks up in JNDI and caches the service object.
+Further lookup or same service via Service Locator is done in its cache which improves the performance of application to great extent.
+Following are the entities of this type of design pattern.
+
+Service - Actual Service which will process the request. Reference of such service is to be looked upon in JNDI server.
+
+Context / Initial Context - JNDI Context carries the reference to service used for lookup purpose.
+
+Service Locator - Service Locator is a single point of contact to get services by JNDI lookup caching the services.
+
+Cache - Cache to store references of services to reuse them
+
+Client - Client is the object that invokes the services via ServiceLocator.

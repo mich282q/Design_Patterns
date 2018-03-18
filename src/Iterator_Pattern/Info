@@ -1,1 +1,16 @@
+Danish
+
 at videre gentagelse at det skal være hurtigt eller langtsom at prøve at nå sit mål på bedst måde.
+
+Iterator mønster er meget almindeligt anvendt design mønster i Java og. Net programmeringsmiljø.
+Dette mønster bruges til at få en måde at få adgang til elementerne i et samlingsobjekt på sekventiel
+ vis uden at det er nødvendigt at kende dens underliggende repræsentation.
+
+Iterator mønster falder under adfærdsmønster kategori.
+
+English
+
+Iterator pattern is very commonly used design pattern in Java and .Net programming environment.
+ This pattern is used to get a way to access the elements of a collection object in sequential manner without any need to know its underlying representation.
+
+Iterator pattern falls under behavioral pattern category.

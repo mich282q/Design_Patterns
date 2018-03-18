@@ -1,0 +1,19 @@
+Danish
+
+Flyvægtmønster bruges primært til at reducere antallet af genstande, der er skabt, og for at mindske hukommelsesfodaftryk og øge ydeevnen.
+Denne type designmønster kommer under strukturelle mønstre,
+da dette mønster giver måder at reducere objekttælling og dermed forbedre objektstrukturen i applikationen.
+
+Flyvægtmønster forsøger at genbruge allerede eksisterende lignende genstande ved at gemme dem og oprette nyt objekt, når der ikke findes matchende objekt.
+Vi vil demonstrere dette mønster ved at tegne 20 cirkler på forskellige steder, men vi vil kun oprette 5 genstande.
+Kun 5 farver er tilgængelige, så farveegenskab bruges til at kontrollere allerede eksisterende Cirkelobjekter.
+
+English
+
+Flyweight pattern is primarily used to reduce the number of objects created and to decrease memory footprint and increase performance.
+ This type of design pattern comes under structural pattern as this pattern provides ways to decrease object
+  count thus improving the object structure of application.
+
+Flyweight pattern tries to reuse already existing similar kind objects by storing them and creates new object when no matching object is found.
+We will demonstrate this pattern by drawing 20 circles of different locations but we will create only 5 objects.
+Only 5 colors are available so color property is used to check already existing Circle objects.

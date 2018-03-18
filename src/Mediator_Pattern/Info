@@ -1,0 +1,14 @@
+Danish
+
+Mediator mønster bruges til at reducere kommunikationskompleksiteten mellem flere objekter eller klasser.
+Dette mønster giver en mæglerklasse, der normalt håndterer alle kommunikationer mellem forskellige klasser
+ og understøtter nem vedligeholdelse af koden ved løs kobling.
+
+ Mediator mønster falder under adfærdsmønster kategori.
+
+ English
+
+ Mediator pattern is used to reduce communication complexity between multiple objects or classes.
+  This pattern provides a mediator class which normally handles all the communications between different classes
+   and supports easy maintenance of the code by loose coupling.
+   Mediator pattern falls under behavioral pattern category.

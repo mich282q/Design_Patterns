@@ -1,0 +1,33 @@
+Danish
+
+Overføringsobjektmønsteret bruges, når vi ønsker at videregive data med flere attributter i ét skud fra klient til server.
+Overførselsobjekt kaldes også Value Object.
+Transfer Object er en simpel POJO klasse, der har getter / setter metoder og er serializable,
+så den kan overføres over netværket. Det har ingen adfærd.
+Server Side Business Class henter normalt data fra databasen og fylder POJO og sender det til klienten eller sender det efter værdi.
+ For klient er overførselsobjekt skrivebeskyttet.
+ Klienten kan oprette sit eget overførselsobjekt og sende det til serveren for at opdatere værdier i databasen i ét skud.
+  Følgende er enhederne af denne type designmønster.
+
+Business Object - Business Service fylder overføringsobjektet med data.
+
+Overfør objekt - Simple POJO med metoder til at indstille / få attributter alene.
+
+Client - Client enten beder eller sender overføringsobjektet til forretningsobjekt.
+
+
+English
+
+The Transfer Object pattern is used when we want to pass data with multiple attributes in one shot from client to server.
+ Transfer object is also known as Value Object.
+  Transfer Object is a simple POJO class having getter/setter methods and is serializable so that it can be transferred over the network.
+  It does not have any behavior.
+  Server Side business class normally fetches data from the database and fills the POJO and send it to the client or pass it by value.
+  For client, transfer object is read-only. Client can create its own transfer object and pass it to server to update values in database in one shot.
+   Following are the entities of this type of design pattern.
+
+Business Object - Business Service fills the Transfer Object with data.
+
+Transfer Object - Simple POJO having methods to set/get attributes only.
+
+Client - Client either requests or sends the Transfer Object to Business Object.

@@ -1,0 +1,19 @@
+Danish
+
+Abstrakte Factory arbejder rundt om en superfabrik, der skaber andre fabrikker.
+Denne fabrik kaldes også som fabrik af fabrikker.
+Denne type mønster kommer under skabsmønster,
+da dette mønster giver en af de bedste måder at oprette et objekt på.
+
+I Abstrakt Factory er en grænseflade ansvarlig for at oprette en fabrik af '
+beslægtede objekter uden udtrykkeligt at specificere deres klasser.
+Hver genereret fabrik kan give objekterne som i fabriksmønsteret.
+
+English
+
+Abstract Factory patterns work around a super-factory which creates other factories.
+ This factory is also called as factory of factories.
+ This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
+
+In Abstract Factory pattern an interface is responsible for creating a factory of related objects without explicitly specifying their classes.
+ Each generated factory can give the objects as per the Factory pattern.

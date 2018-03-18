@@ -1,0 +1,11 @@
+Danish
+
+Observatormønster bruges, når der er et til mange forhold mellem objekter, som f.eks.
+ Hvis en genstand er ændret, skal de afhængige objekter underrettes automatisk.
+ Observer mønster falder under adfærdsmønster kategori.
+
+ English
+
+ Observer pattern is used when there is one-to-many relationship between objects such as if one object is modified,
+  its depenedent objects are to be notified automatically.
+  Observer pattern falls under behavioral pattern category.

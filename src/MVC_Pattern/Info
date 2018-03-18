@@ -1,0 +1,28 @@
+Danish
+
+MVC Mønster står for Model-View-Controller Mønster.
+Dette mønster bruges til at adskille applikationens bekymringer.
+
+Model - Model repræsenterer en genstand eller JAVA POJO bærer data.
+Det kan også have logik at opdatere controlleren, hvis dens data ændres.
+
+View - View repræsenterer visualisering af de data, som modellen indeholder.
+
+Controller - Controller virker både på model og visning.
+ Det styrer datastrømmen i modelobjekt og opdaterer visningen, når data ændres.
+ Det holder visning og model adskilt.
+
+
+English
+
+MVC Pattern stands for Model-View-Controller Pattern.
+This pattern is used to separate application's concerns.
+
+Model - Model represents an object or JAVA POJO carrying data.
+It can also have logic to update controller if its data changes.
+
+View - View represents the visualization of the data that model contains.
+
+Controller - Controller acts on both model and view.
+ It controls the data flow into model object and updates the view whenever data changes.
+ It keeps view and model separate.

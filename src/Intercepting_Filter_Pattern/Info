@@ -1,0 +1,34 @@
+Danish
+
+Det opfangende filterdesignmønster bruges, når vi ønsker at gøre en del forbehandling / efterbehandling med anmodning eller svar fra ansøgningen.
+ Filtre er defineret og anvendt på anmodningen, inden anmodningen sendes til den faktiske målprogram.
+ Filtre kan gøre godkendelse / godkendelse / logning eller sporing af anmodning og derefter sende anmodningerne til tilsvarende håndteringspersonale.
+ Følgende er enhederne af denne type designmønster.
+
+Filter - Filter, der udfører bestemte opgaver forud for eller efter henrettelse af anmodning fra forespørgselshandler.
+
+Filterkæde - Filterkæde transporterer flere filtre og hjælper med at udføre dem i defineret rækkefølge på målet.
+
+Mål - Mål objekt er forespørgselshandler
+
+Filter Manager - Filter Manager styrer filtre og filterkæde.
+
+Klient - Klient er objektet, der sender anmodning til målobjektet.
+
+
+English
+
+The intercepting filter design pattern is used when we want to do some pre-processing / post-processing with request or response of the application.
+Filters are defined and applied on the request before passing the request to actual target application.
+Filters can do the authentication/ authorization/ logging or tracking of request and then pass the requests to corresponding handlers.
+Following are the entities of this type of design pattern.
+
+Filter - Filter which will performs certain task prior or after execution of request by request handler.
+
+Filter Chain - Filter Chain carries multiple filters and help to execute them in defined order on target.
+
+Target - Target object is the request handler
+
+Filter Manager - Filter Manager manages the filters and Filter Chain.
+
+Client - Client is the object who sends request to the Target object.

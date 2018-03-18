@@ -1,0 +1,21 @@
+Danish
+
+vi kloner et object vi allreder har.
+
+Prototypemønster refererer til at skabe duplikatobjekt samtidig med at ydeevnen er i tankerne.
+Denne type mønster kommer under skabsmønster, da dette mønster giver en af de bedste måder at oprette et objekt på.
+
+Dette mønster involverer implementering af en prototype-grænseflade, som fortæller at skabe en klon af det aktuelle objekt.
+Dette mønster bruges, når oprettelse af objekt direkte er dyrt.
+ For eksempel skal der oprettes en genstand efter en dyre databaseoperation.
+Vi kan cache objektet, returnerer sin klon på næste anmodning og opdaterer databasen efter behov og dermed reducerer databasesamtaler.
+
+English
+
+Prototype pattern refers to creating duplicate object while keeping performance in mind.
+This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
+
+This pattern involves implementing a prototype interface which tells to create a clone of the current object.
+ This pattern is used when creation of object directly is costly.
+ For example, an object is to be created after a costly database operation.
+  We can cache the object, returns its clone on next request and update the database as and when needed thus reducing database calls.

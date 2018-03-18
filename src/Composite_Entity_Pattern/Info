@@ -1,0 +1,32 @@
+Danish
+
+Composite Entity mønster bruges i EJB persistens mekanisme.
+ En sammensat enhed er en EJB-enhedsbønne, som repræsenterer en graf af objekter.
+  Når en sammensat enhed opdateres, bliver internt afhængige objekter bønner opdateret automatisk som administreret af EJB entity bønne.
+  Følgende er deltagerne i Composite Entity Bean.
+
+Composite Entity - Det er primær enhed bønne.
+ Den kan være grovkornet eller kan indeholde en grovkornet genstand, der skal bruges til persistensformål.
+
+Groft kornet objekt - Dette objekt indeholder afhængige objekter.
+ Den har sin egen livscyklus og styrer også livscyklussen for afhængige genstande.
+
+Afhængig objekt - Afhængig objekt er en genstand, der afhænger af grovkornet objekt for dets vedholdende livscyklus.
+
+Strategier - Strategier repræsenterer, hvordan man implementerer en sammensat enhed.
+
+English
+Composite Entity pattern is used in EJB persistence mechanism.
+A Composite entity is an EJB entity bean which represents a graph of objects.
+When a composite entity is updated, internally dependent objects beans get updated automatically as being managed by EJB entity bean.
+Following are the participants in Composite Entity Bean.
+
+Composite Entity - It is primary entity bean.
+It can be coarse grained or can contain a coarse grained object to be used for persistence purpose.
+
+Coarse-Grained Object - This object contains dependent objects.
+ It has its own life cycle and also manages life cycle of dependent objects.
+
+Dependent Object - Dependent object is an object which depends on coarse grained object for its persistence lifecycle.
+
+Strategies - Strategies represents how to implement a Composite Entity.
